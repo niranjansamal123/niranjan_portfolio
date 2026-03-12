@@ -9,7 +9,7 @@ import emailjs from "@emailjs/browser";
 //  3. Create email template → copy TEMPLATE_ID
 //  4. Go to Account → copy PUBLIC_KEY
 // ─────────────────────────────────────────────
-//
+//  For security, these should be stored in a .env file and accessed via import.meta.env
 const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
